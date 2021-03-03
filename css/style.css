@@ -1,6 +1,13 @@
 /* COMMON */
 
 /* HEADER */
+nav img {
+    width: 100%;
+}
+
+.menu li{
+    display: inline-block;
+}
 /* END HEADER */
 
 /* MAIN */
