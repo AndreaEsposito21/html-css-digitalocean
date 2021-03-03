@@ -54,6 +54,23 @@ nav {
 .jumbotron {
     background-image: url("../img/ms-jumbo.jpg");
 }
+
+.text_jumbo {
+    color: white;
+}
+
+.text_jumbo h1 {
+    font-size: 60px;
+}
+
+.text_jumbo p{
+    color: lightgrey;
+    font-size: 20px;
+}
+
+.inner_jumbo {
+    background-color: white;
+}
 /* End Jumbotron */
 
 /* END MAIN */
