@@ -7,6 +7,9 @@
     color: #031c4e;
 }
 
+.color_text p{
+    color: #75809a;
+}
 /* TEST */
 /* .container {
     background-color: red;
@@ -121,6 +124,10 @@ nav {
     font-weight: 600;
 }
 
+.inner_banner img {
+    margin: auto;
+}
+
 .inner_banner h5 {
     text-transform: uppercase;
     color: #6f7b97;
@@ -132,7 +139,28 @@ nav {
 .inner_deploy {
     padding: 30px 0;
 }
+
+.inner_deploy p{
+    color: #75809a;
+    font-size: 18px;
+}
+
+.deploy_list li {
+    border-left: 1px solid lightgrey;
+    padding: 10px 20px;
+    color: #75809a;
+}
+
+.inner_col_deploy h4{
+    font-weight: 600;
+}
 /* End Deploy & Scale */
+
+/* Designed */
+.designed {
+    background-color: #f3f5f9;
+}
+/* End Designed */
 
 /* END MAIN */
 
