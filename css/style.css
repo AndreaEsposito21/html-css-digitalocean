@@ -1,4 +1,7 @@
 /* COMMON */
+.bolder_text {
+    color: #142b58;
+}
 
 /* TEST */
 /* .container {
@@ -70,6 +73,28 @@ nav {
 
 .inner_jumbo {
     background-color: white;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.notehead span {
+    color: #006aff;
+    display: block;
+}
+
+.btn img {
+    display: inline-block;
+    max-width: 5%;
+}
+
+.button_jambo:first-child {
+    background-color: #579aff;
+    color: white;
+}
+
+.button_jambo:last-child {
+    box-shadow: gray;
+    color: gray;
 }
 /* End Jumbotron */
 
