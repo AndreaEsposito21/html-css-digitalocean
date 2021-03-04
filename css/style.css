@@ -158,7 +158,61 @@ nav {
 .designed .color_text h5 {
     font-weight: 600;
 }
+
+.designed .color_text a {
+    color: #031c4e;
+}
+
+.designed .inner_container a {
+    color: #579aff;
+}
 /* End Designed */
+
+/* Features */
+.features h4{
+    font-weight: 600;
+}
+
+.features p{
+    color: #75809a;
+}
+
+.features a {
+    color: #579aff;
+    font-weight: 600;
+}
+/* End Features */
+
+/* Service */
+.service {
+    background: rgb(0,30,153);
+    background: linear-gradient(0deg, rgba(0,30,153,1) 0%, rgba(0,72,198,1) 100%);
+}
+
+.service h2 {
+    color: white;
+    font-weight: 600;
+}
+
+
+.tag_city {
+    color: white;
+    text-transform: uppercase;
+}
+
+.city {
+    color: #75809a;
+}
+
+.td_right {
+    text-align: right;
+    color: #00d5d1;
+}
+
+.td_right a{
+    color: #00d5d1;
+}
+/* End Service */
 
 /* END MAIN */
 
