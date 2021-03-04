@@ -10,18 +10,15 @@
 .color_text p{
     color: #75809a;
 }
-/* TEST */
-/* .container {
-    background-color: red;
+
+.inner_container {
+    padding: 30px 0;
 }
 
-[class*="col-"] {
-     background-color: pink;
+.inner_container p{
+    color: #75809a;
+    font-size: 18px;
 }
-
-.row {
-    background-color: seagreen;
-} */
 /* HEADER */
 nav {
     padding: 20px 0;
@@ -136,13 +133,12 @@ nav {
 /* End Banner */
 
 /* Deploy & Scale */
-.inner_deploy {
-    padding: 30px 0;
+.deploy_scale {
+    padding-bottom: 50px;
 }
 
-.inner_deploy p{
-    color: #75809a;
-    font-size: 18px;
+.inner_col_deploy h4{
+    font-weight: 600;
 }
 
 .deploy_list li {
@@ -151,14 +147,16 @@ nav {
     color: #75809a;
 }
 
-.inner_col_deploy h4{
-    font-weight: 600;
-}
 /* End Deploy & Scale */
 
 /* Designed */
 .designed {
     background-color: #f3f5f9;
+    padding-bottom: 50px;
+}
+
+.designed .color_text h5 {
+    font-weight: 600;
 }
 /* End Designed */
 
