@@ -3,6 +3,10 @@
     color: #142b58;
 }
 
+.color_text {
+    color: #031c4e;
+}
+
 /* TEST */
 /* .container {
     background-color: red;
@@ -56,6 +60,7 @@ nav {
 /* Jumbotron */
 .jumbotron {
     background-image: url("../img/ms-jumbo.jpg");
+    margin-bottom: 0;
 }
 
 .text_jumbo {
@@ -87,16 +92,47 @@ nav {
     max-width: 5%;
 }
 
-.button_jambo:first-child {
+.account_btn {
     background-color: #579aff;
     color: white;
 }
 
-.button_jambo:last-child {
-    box-shadow: gray;
+.sign_google {
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px 1px lightgrey;
     color: gray;
 }
+
+.terms {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    font-size: 12px;
+}
 /* End Jumbotron */
+
+/* Banner */
+.banner_img {
+    background-color: #f3f5f9;
+    padding: 30px 0;
+}
+
+.inner_banner a {
+    color: #579aff;
+    font-weight: 600;
+}
+
+.inner_banner h5 {
+    text-transform: uppercase;
+    color: #6f7b97;
+    font-weight: 600;
+}
+/* End Banner */
+
+/* Deploy & Scale */
+.inner_deploy {
+    padding: 30px 0;
+}
+/* End Deploy & Scale */
 
 /* END MAIN */
 
