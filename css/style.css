@@ -11,6 +11,10 @@
     color: #75809a;
 }
 
+.color_text a {
+    color: #006aff;
+}
+
 .inner_container {
     padding: 30px 0;
 }
@@ -187,6 +191,7 @@ nav {
 .service {
     background: rgb(0,30,153);
     background: linear-gradient(0deg, rgba(0,30,153,1) 0%, rgba(0,72,198,1) 100%);
+    padding: 50px 0;
 }
 
 .service h2 {
@@ -213,6 +218,40 @@ nav {
     color: #00d5d1;
 }
 /* End Service */
+
+/* Development */
+.development {
+    background-color: #f3f5f9;
+}
+
+.inner_col_dev {
+    background-color: white;
+    padding: 25px;
+}
+
+.inner_col_dev img{
+    margin: auto;
+}
+/* End Development */
+
+/* Get Started */
+.started {
+    background: rgb(0,30,153);
+    background: linear-gradient(0deg, rgba(0,30,153,1) 0%, rgba(0,72,198,1) 100%);
+    padding: 50px 0;
+}
+
+.inner_started h2 {
+    color: white;
+    padding: 20px 0;
+}
+
+.inner_started a {
+    background-color: white;
+    color: #579aff;
+    font-weight: 600;
+}
+/* End Get Started */
 
 /* END MAIN */
 
